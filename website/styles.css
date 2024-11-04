@@ -1,0 +1,32 @@
+body {
+    background-color: lightseagreen;
+}
+#map_box {
+    position: absolute;
+    height: 30%;
+    width: 50%; /* Adjusted width for 5:3 aspect ratio */
+    background-color: wheat;
+    top: 65%; /* Adjusted to fit better */
+    left: 25%; /* Center the box */
+    z-index: 1;
+}
+
+
+
+#area_display {
+    position: absolute;
+    height: 30%;
+    width: 30%;
+    background-color: lightcoral;
+    top: 29%;
+    left: 35%;
+}
+#the_map {
+    width: 100%; /* Make it fill the map_box */
+    height: 100%; /* Make it fill the map_box */
+    background-image: url("images/map/kanto-kanto.png");
+    background-size: contain; /* Ensure the entire image is visible */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    z-index: 2;
+}
